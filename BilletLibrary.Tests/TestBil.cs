@@ -13,10 +13,23 @@ namespace BilletLibrary.Tests
 			Bil b = new Bil();
 
 			// Act
-			decimal pris = b.Pris();
+			decimal pris = b.Pris(false);
 
 			// Assert
 			Assert.AreEqual(240, pris);
+		}
+
+		[TestMethod]
+		public void TestBilPrisBrobizz()
+		{
+			// Arrange
+			Bil b = new Bil();
+
+			// Act
+			decimal pris = b.Pris(true);
+
+			// Assert
+			Assert.AreEqual(228, pris);
 		}
 
 		[TestMethod]

@@ -15,10 +15,23 @@ namespace BilletLibrary.Tests
 			MC mc = new MC();
 
 			// Act
-			decimal pris = mc.Pris();
+			decimal pris = mc.Pris(false);
 
 			// Assert
 			Assert.AreEqual(125, pris);
+		}
+
+		[TestMethod]
+		public void TestMCPrisBrobizz()
+		{
+			// Arrange
+			MC mc = new MC();
+
+			// Act
+			decimal pris = mc.Pris(true);
+
+			// Assert
+			Assert.AreEqual(118.75m, pris);
 		}
 
 		[TestMethod]
