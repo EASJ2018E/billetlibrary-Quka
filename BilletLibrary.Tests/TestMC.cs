@@ -28,10 +28,38 @@ namespace BilletLibrary.Tests
 			MC mc = new MC();
 
 			// Act
-			string køretøj = mc.Køretøj();
+			string køretøj = mc.Type();
 
 			// Assert
 			Assert.AreEqual("MC", køretøj);
+		}
+
+		[TestMethod]
+		public void TestMCNummerplade()
+		{
+			// Arrange
+			MC mc = new MC();
+
+			// Act
+			mc.Nummerplade = "1234567"; // 8 chars (must be 7)
+
+			// Assert
+			Assert.AreEqual("1234567", mc.Nummerplade);
+		}
+
+
+		[TestMethod]
+		[ExpectedException(typeof(ArgumentException))]
+		public void TestMCNummerpladeLengthException()
+		{
+			// Arrange
+			MC mc = new MC();
+
+			// Act
+			mc.Nummerplade = "12341234"; // 8 chars (must be 7)
+
+			// Assert
+			Assert.Fail();
 		}
 	}
 }

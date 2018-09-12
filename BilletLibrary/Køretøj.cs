@@ -6,7 +6,17 @@ namespace BilletLibrary
 {
 	public abstract class Køretøj
 	{
-		public string Nummerplade { get; set; }
+		private string _nummerplade;
+
+		public string Nummerplade
+		{
+			get { return _nummerplade; }
+			set
+			{
+				_nummerplade = value.Length < 8 ? value : throw new ArgumentException("Nummerplade must be 7 chars or less");
+			}
+		}
+
 		public DateTime Dato { get; set; }
 
 		/// <summary>
