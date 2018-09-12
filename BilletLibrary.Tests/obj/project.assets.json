@@ -1617,6 +1617,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "BilletLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BilletLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BilletLibrary.dll": {}
+        }
       }
     }
   },
@@ -5712,10 +5722,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "BilletLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BilletLibrary/BilletLibrary.csproj",
+      "msbuildProject": "../BilletLibrary/BilletLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BilletLibrary >= 1.0.0",
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
@@ -5751,7 +5767,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Arlin\\source\\gitRepos\\billetlibrary-Quka\\BilletLibrary\\BilletLibrary.csproj": {
+              "projectPath": "C:\\Users\\Arlin\\source\\gitRepos\\billetlibrary-Quka\\BilletLibrary\\BilletLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

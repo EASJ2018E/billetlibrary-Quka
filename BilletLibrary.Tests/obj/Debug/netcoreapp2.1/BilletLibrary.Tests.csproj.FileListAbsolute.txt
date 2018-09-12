@@ -1,0 +1,17 @@
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.Tests.deps.json
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.Tests.runtimeconfig.json
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.Tests.runtimeconfig.dev.json
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.Tests.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.Tests.pdb
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.pdb
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.csprojAssemblyReference.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.AssemblyInfoInputs.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.AssemblyInfo.cs
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.csproj.CopyComplete
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.pdb

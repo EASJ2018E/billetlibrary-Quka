@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BilletLibrary
 {
-	class Bil
+	public class Bil
 	{
 		public string Nummerplade { get; set; }
 		public DateTime Dato { get; set; }
