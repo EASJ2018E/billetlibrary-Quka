@@ -15,3 +15,4 @@ C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\
 C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.csproj.CopyComplete
 C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.dll
 C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\obj\Debug\netcoreapp2.1\BilletLibrary.Tests.pdb
+C:\Users\Arlin\source\gitRepos\billetlibrary-Quka\BilletLibrary.Tests\bin\Debug\netcoreapp2.1\BilletLibrary.xml
