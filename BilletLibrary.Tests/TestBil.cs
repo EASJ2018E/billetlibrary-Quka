@@ -13,7 +13,7 @@ namespace BilletLibrary.Tests
 			Bil b = new Bil();
 
 			// Act
-			decimal pris = b.Pris(false);
+			decimal pris = b.Pris();
 
 			// Assert
 			Assert.AreEqual(240, pris);
@@ -26,7 +26,8 @@ namespace BilletLibrary.Tests
 			Bil b = new Bil();
 
 			// Act
-			decimal pris = b.Pris(true);
+			b.Brobizz = true;
+			decimal pris = b.Pris();
 
 			// Assert
 			Assert.AreEqual(228, pris);

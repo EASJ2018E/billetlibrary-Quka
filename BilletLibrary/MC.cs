@@ -13,11 +13,11 @@ namespace BilletLibrary
 		/// Get the price of the MC
 		/// </summary>
 		/// <returns>Returns 125 as a decimal</returns>
-		public override decimal Pris(bool brobizzUsed)
+		public override decimal Pris()
 		{
 			int price = 125;
 
-			return brobizzUsed ? price * 0.95m : price;
+			return Brobizz ? price * 0.95m : price;
 		}
 
 		/// <summary>

@@ -15,7 +15,7 @@ namespace BilletLibrary.Tests
 			MC mc = new MC();
 
 			// Act
-			decimal pris = mc.Pris(false);
+			decimal pris = mc.Pris();
 
 			// Assert
 			Assert.AreEqual(125, pris);
@@ -28,7 +28,8 @@ namespace BilletLibrary.Tests
 			MC mc = new MC();
 
 			// Act
-			decimal pris = mc.Pris(true);
+			mc.Brobizz = true;
+			decimal pris = mc.Pris();
 
 			// Assert
 			Assert.AreEqual(118.75m, pris);

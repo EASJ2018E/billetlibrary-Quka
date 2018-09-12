@@ -8,6 +8,9 @@ namespace BilletLibrary
 	{
 		private string _nummerplade;
 
+		/// <summary>
+		/// The serialnr. of this vehicle
+		/// </summary>
 		public string Nummerplade
 		{
 			get { return _nummerplade; }
@@ -17,16 +20,21 @@ namespace BilletLibrary
 			}
 		}
 
+		/// <summary>
+		/// The date of when this vehicle has passed a/any bridge or passing
+		/// </summary>
 		public DateTime Dato { get; set; }
+		
+		/// <summary>
+		/// Is true if this vehicle has used brobizz, false if not
+		/// </summary>
+		public bool Brobizz { get; set; }
 
 		/// <summary>
 		/// Get the price of the car
 		/// </summary>
-		/// <param name="brobizzUsed">
-		///	Pass true if brobizz is used for 5% rebate, false if no rebate	
-		/// </param>
 		/// <returns>Returns a price as a decimal</returns>
-		public abstract decimal Pris(bool brobizzUsed);
+		public abstract decimal Pris();
 
 		/// <summary>
 		/// Get the type of the vehicle
