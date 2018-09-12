@@ -7,16 +7,13 @@ namespace BilletLibrary
 	/// <summary>
 	/// Creates an MC object with price and vehicle type information
 	/// </summary>
-	public class MC
+	public class MC : Køretøj
 	{
-		public string Nummerplade { get; set; }
-		public DateTime Dato { get; set; }
-
 		/// <summary>
 		/// Get the price of the MC
 		/// </summary>
 		/// <returns>Returns 125 as a decimal</returns>
-		public decimal Pris()
+		public override decimal Pris()
 		{
 			return 125;
 		}
@@ -25,7 +22,7 @@ namespace BilletLibrary
 		/// Get the type of the vehicle
 		/// </summary>
 		/// <returns>Returns MC as a string</returns>
-		public string Køretøj()
+		public override string Type()
 		{
 			return "MC";
 		}

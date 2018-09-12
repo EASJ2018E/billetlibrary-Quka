@@ -25,7 +25,7 @@ namespace BilletLibrary.Tests
 			Bil b = new Bil();
 
 			// Act
-			string køretøj = b.Køretøj();
+			string køretøj = b.Type();
 
 			// Assert
 			Assert.AreEqual("Bil", køretøj);
