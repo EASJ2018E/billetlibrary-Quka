@@ -74,5 +74,18 @@ namespace BilletLibrary.Tests
 			// Assert
 			Assert.Fail();
 		}
+
+		[TestMethod]
+		public void TestMCDato()
+		{
+			// Arrange
+			MC mc = new MC();
+
+			// Act
+			mc.Dato = new DateTime(2018, 4, 24);
+
+			// Assert
+			Assert.AreEqual(new DateTime(2018, 4, 24), mc.Dato);
+		}
 	}
 }

@@ -72,5 +72,18 @@ namespace BilletLibrary.Tests
 			// Assert
 			Assert.Fail();
 		}
+
+		[TestMethod]
+		public void TestBilDato()
+		{
+			// Arrange
+			Bil b = new Bil();
+
+			// Act
+			b.Dato = new DateTime(2018, 4, 24);
+
+			// Assert
+			Assert.AreEqual(new DateTime(2018, 4, 24), b.Dato);
+		}
 	}
 }
