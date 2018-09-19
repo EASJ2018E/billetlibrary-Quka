@@ -31,7 +31,7 @@ namespace BilletLibrary
 		public bool Brobizz { get; set; }
 
 		/// <summary>
-		/// Get the price of the car
+		/// Get the price of the vehicle
 		/// </summary>
 		/// <returns>Returns a price as a decimal</returns>
 		public abstract decimal Pris();
